@@ -1,0 +1,109 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+  background-image: url('sky.jpg');
+    background-color:rgb(238, 171, 116) ;
+    background-repeat: no-repeat;
+    background-size: 50% 150%;
+    padding: 0%;
+    margin: 0%;
+}
+
+
+nav{
+    color: rgb(3, 69, 26);
+    
+    text-align: center;
+    display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+    margin-top: 50px;
+    margin-left:50%;
+    position: fixed;
+    
+    
+}
+
+a{
+    color: #f5f5f5;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+li{
+display: inline;
+color: rbg(252, 239, 244);
+text-shadow: -1px 0 rgb(234, 122, 23),0 1px black , 0 1px rgb(197, 114, 7);
+font-family: Marker Felt, fantasy;
+
+}
+h1{
+    text-align: center;
+    display: flex;
+font-size: 40pt;
+position: relative;
+float: center;
+margin-top:15%;
+margin-left: 120%;
+color:white;
+text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(0, 0, 0), 1px 0 rgb(0, 0, 0), 0 -1px rgb(0, 0, 0);
+font-family: Marker Felt, fantasy;
+}   
+
+
+    
+
+h2{
+    text-align: center;
+    display: flex;
+    position: relative;
+    float: center;
+    margin-left: 127%;
+    color: aliceblue;
+    text-shadow: -1px 0 rgb(0, 0, 0), 0 1px rgb(10, 9, 9), 1px 0 black, 0 -1px rgb(0, 0, 0);
+   font-family: Marker Felt, fantasy;
+
+}
+
+.footer{
+    margin-top: 100px;
+     background-color: #2c6a6ba3;
+    height: 50px;
+    width: 100%;
+    margin-top: 25px;
+    font-size: larger;
+    color: aliceblue;
+    text-align: center;
+
+}
+
+.mee{
+    margin-top: 160px;
+    background-color: #2c6a6b69;
+   width: 500px;
+   height: 600px;
+   border-radius: 50%;
+   margin-right:-95% ;
+   object-fit: cover;
+   
+ 
+   
+}
+
+.home{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.welcome{
+    margin-left: 135%;
+}
+
+

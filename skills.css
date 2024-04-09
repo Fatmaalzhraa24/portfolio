@@ -1,0 +1,151 @@
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color:rgb(238, 171, 116) ;
+ cursor:pointer;
+ margin: 0;
+ padding: 0;
+    
+    
+}
+nav{
+    color: rgb(177, 9, 9);
+    text-align: center;
+    display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: center;
+    position: fixed;
+background-color: #2c6a6ba3;
+width:100% ;
+margin-top: -90px;
+}
+
+.head1{
+    margin-top: 90px;
+    font-size: xxx-large;
+}
+h1{
+    font-family: Marker Felt, fantasy;
+    color: aliceblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+h2{
+    font-family: Marker Felt, fantasy;
+    color: aliceblue;
+    text-shadow: black 0,8 black 2; 
+}
+h3{
+    font-family: Marker Felt, fantasy;
+    color: aliceblue;
+    text-shadow: black 0,8;
+    
+}
+.start{
+    margin-top: 50px;
+}
+
+a{
+    color: #f8f6f6;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+
+.card{
+    padding: 10px;
+    width: fit-content;
+    background-color: #2c6a6ba3;
+    color: blueviolet;
+    border: 3px dotted white;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgba(50, 93, 60, 0.336);
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+
+}
+.card:hover{
+    transform: scale(1.2)
+
+}
+.jsph{
+    margin-top: 22px;
+}
+
+.pics{
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    width: 100%;
+    margin-left: 7%;
+    
+}
+
+.picAboutme{
+    padding: 10px;
+    width: fit-content;
+    background-color: #2c6a6ba3;
+    color: blueviolet;
+    /* border: 3px dotted white; */
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px rgba(50, 93, 60, 0.336);
+    
+}
+li{
+display: inline;
+color: rbg(252, 239, 244);
+text-shadow: -1px 0 rgb(234, 122, 23),0 1px black , 0 1px rgb(197, 114, 7);
+font-family: Marker Felt, fantasy;
+
+}
+.skiils{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-right: 900px;
+    width: 90%;
+}
+.footer{
+    background-color: #2c6a6ba3;
+    color: aliceblue;
+    text-align: center;
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    margin-top: 50px;
+}
+.nav__toggle{
+    display: none;
+}
+@media screen and (max-width: 520px) {
+    .card{
+        padding: 10px;
+        width: fit-content;
+        background-color: #2c6a6ba3;
+        color: blueviolet;
+        border: 3px dotted white;
+        border-radius: 20px;
+        box-shadow: 10px 10px 5px rgba(50, 93, 60, 0.336);
+        display: grid;
+        grid-template-columns:  1fr ;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        
+    
+    }
+
+
+}
+
