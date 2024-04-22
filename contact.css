@@ -9,7 +9,7 @@ html {
 }
 
 body{
-    cursor: url(imges/mouse.png)32 32,pointer;
+    cursor: url(logo.png)pointer;
     background-color:rgb(238, 171, 116) ;
     border: 2px solid rgba(255, 255, 255, 0); 
     width: 100%;
