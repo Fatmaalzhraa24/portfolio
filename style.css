@@ -8,18 +8,30 @@ html {
     
 }
 body{
-    background-image: url('imges/sky.jpg' );
+    /* background-image: url('imges/sky.jpg' ); */
     background-color:rgb(238, 171, 116) ;
-    height: 50%;
+  
     background-repeat: no-repeat;
         /* background-size: cover; */
          /* background-size: 50% 150%; */
     padding: 0;
     margin: 0;
-    height: 50vh;
+   overflow: hidden;
 }
 
+.me-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 40px;
 
+}
+
+.img-elem{
+    background-color: rgba(44, 106, 107, 0.5);
+    object-fit: cover;
+    border-radius: 50%
+}
 #top{
     color: rgb(3, 69, 26);
     display: flex;
@@ -47,7 +59,7 @@ font-family: Marker Felt, fantasy;
     align-content: center;
     text-align: center;
 }
-    .im{ 
+    /* .im{ 
     margin-top: 160px;
     background-color: rgba(44, 106, 107, 0.5);
     width: 500px;
@@ -60,7 +72,7 @@ font-family: Marker Felt, fantasy;
    object-fit: cover;
    height: 50vh;
 
-}
+} */
 
 .welcome{
     
