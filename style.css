@@ -8,8 +8,9 @@ html {
     
 }
 body{
-  background-image: url('imges/sky.jpg');
+    background-image: url('imges/sky.jpg' );
     background-color:rgb(238, 171, 116) ;
+    height: 50%;
     background-repeat: no-repeat;
     background-size: cover;
     padding: 0;
@@ -45,7 +46,7 @@ font-family: Marker Felt, fantasy;
     align-content: center;
     text-align: center;
 }
-.mee{
+    .im{ 
     margin-top: 160px;
     background-color: rgba(44, 106, 107, 0.5);
     
