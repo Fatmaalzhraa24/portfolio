@@ -1,158 +1,147 @@
-
-
-
-
-html {
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  html {
     scroll-behavior: smooth;
-}
-body{
-    background-color:rgb(238, 171, 116) ;
- cursor:pointer;
- margin: 0;
- padding: 0;
-    
-    
-}
-nav{
-    
+    font-family: Marker Felt, fantasy;
+    color: aliceblue;
+  }
+  
+  body {
+    cursor: url(imges/mouse.png) 32 32, pointer;
+    background-color: rgb(238, 171, 116);
+    width: 100vw;
+  }
+  
+  nav {
     text-align: center;
     display: flex;
-     flex-direction: row;
-     align-items: center;
-     justify-content: center;
-     height: 50px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
     position: fixed;
-background-color: #2c6a6ba3;
-width:100% ;
-top: 0%;
-}
-
-a{
+    background-color: #2c6a6ba3;
+    width: 100%;
+    top: 0;
+  }
+  li {
+    display: inline;
+  }
+  a {
     color: #f8f6f6;
     text-decoration: none;
-    font-size: 20px;
-    margin-right: 89px;
-    margin-left: 20px;
-}
-li{
-display: inline;
-text-shadow: -1px 0 rgb(234, 122, 23),0 1px black , 0 1px rgb(197, 114, 7);
-font-family: Marker Felt, fantasy;
-
-
-}
-
-.head1{
-    margin-top: 90px;
-    font-size: xxx-large;
-}
-h1{
+    font-size: clamp(1.1rem, 3vw, 1.5rem);
+    margin-inline: 0.5rem;
+    text-shadow: -1px 0 rgb(234, 122, 23), 0 1px black, 0 1px rgb(197, 114, 7);
+  }
+  
+  .footer {
     font-family: Marker Felt, fantasy;
+    background-color:  #2c6a6ba3;
     color: aliceblue;
+    font-size: clamp(0.8rem, 3vw, 1.2rem);
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
     display: flex;
-    margin-right: 250px;
-    flex-direction: row;
-    justify-content: space-around;
-
-
-}
-h2{
-    font-family: Marker Felt, fantasy;
+    justify-content: center;
+    align-items: center;
+    text-shadow: -1px 2px rgb(234, 122, 23), 02px 1px 3px rgba(9, 73, 33, 0.839),
+      0 1px rgb(197, 114, 7);
+  }
+  
+  .container {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+  }
+  .about h1 {
+    text-align: center;
+    width: 100%;
+    font-size: clamp(1.2rem, 2rem + 2vw, 5rem);
+    margin-bottom: 1.5rem;
+    text-shadow: 1px 2px 2px rgb(49, 46, 46);
+  }
+  .about h3 {
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    margin-inline: auto;
     color: #2c6a6ba3;
-    text-shadow: black 0,8 black 2; 
-    margin-left: 470px;
-}
-h3{
-    font-family: Marker Felt, fantasy;
-    color: aliceblue;
-    text-shadow: black 0,8;
-    margin-left: 80px;
-    
-}
-.start{
-    margin-top: 50px;
-    margin-left: 300px;
-}
-
-.card{
-      padding: 10px;
+     /* text-shadow: 1px 1px 4px rgba(1, 1, 1, 0.927); */
+    margin-bottom: 1.5rem;
+    font-size: clamp(1.2rem, 2vw, 2rem);
+  }
+  .head1,
+  .start {
+    margin-bottom: 1.5rem;
+    color: #fcfdfd;
+    text-shadow: 1px 2px 5px rgba(223, 221, 221, 0.606);
+    width: 75%;
+    max-width: 600px;
+    text-align: center;
+    margin-inline: auto;
+    font-size: clamp(1.5rem, 3vw, 2rem);
+  }
+  
+  .start {
+    margin-top: 4.5rem;
+  }
+  
+  .card {
+    padding: 10px;
     width: fit-content;
-    background-color: #2c6a6ba3;
-    color: blueviolet;
+    background-color:  #2c6a6ba3;
     border: 3px dotted white;
     border-radius: 20px;
     box-shadow: 10px 10px 5px rgba(50, 93, 60, 0.336);
-    
-     display: flex;
-     justify-content: space-between;
-transition: 0.8s;
-     align-items: center;
-    
-
-}
-.card:hover{
-    transform: scale(1.2)
-
-}
-.jsph{
-    margin-top: 22px;
-}
-
-.pics{
     display: flex;
-    
+    flex-wrap: wrap;
+    justify-content: center;
+    transition: 0.8s;
+    gap: 0.5rem;
+    width: 90vw;
+    margin-inline: auto;
+  }
+  .card img {
     width: 100%;
-    margin-left: 7%;
-    
-}
-
-.picAboutme{
-    padding: 10px;
-    width: fit-content;
-    background-color: #2c6a6ba3;
-    color: blueviolet;
-    gap: 1em;
-    border-radius: 20px;
-    box-shadow: 10px 10px 5px rgba(50, 93, 60, 0.336);
-    
-}
-
-.skiils{
+    max-width: 7rem;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 4px;
+    border: solid 1px rgb(41, 77, 60);
+  }
+  .card img:hover {
+    aspect-ratio: auto;
+    width: 10rem;
+    transform: scale(2);
+    border: solid 3px rgba(20, 42, 32, 0.769);
+  }
+  .skills {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
-    margin-left: 100px;
+    justify-content: center;
+    gap: 3.5%;
     width: 90%;
-}
-.footer{
-    background-color: #2c6a6ba3;
-    color: aliceblue;
-    text-align: center;
-    width: 100%;
-    height: 90px;
-    position: fixed;
-    margin-top: 50px;
-    
-}
-.nav__toggle{
-    display: none;
-}
-@media screen and (max-width: 520px) {
-    .card{
-        padding: 10px;
-        width: fit-content;
-        background-color: #2c6a6ba3;
-        color: blueviolet;
-        border: 3px dotted white;
-        border-radius: 20px;
-        box-shadow: 10px 10px 5px rgba(50, 93, 60, 0.336);
-         
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+    max-width: 1000px;
+    margin-inline: auto;
+  }
+  .skills img {
+    width: 8%;
+    max-width: 150px;
+  }
+  
+  @media screen and (max-width: 520px) {
+    .card img:hover {
+      width: 5rem;
+      transform: scale(1.2);
+      border: solid 3px rgba(20, 42, 32, 0.769);
     }
-
-
-}
-
+    .skills img {
+      width: 15%;
+    }
+  }
