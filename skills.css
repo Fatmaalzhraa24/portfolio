@@ -10,8 +10,8 @@
   }
   
   body {
-    cursor: url(imges/mouse.png) 32 32, pointer;
-    background-color: rgb(238, 171, 116);
+    cursor: url(imges/logo.png) , auto;
+        background-color: rgb(238, 171, 116);
     width: 100vw;
   }
   

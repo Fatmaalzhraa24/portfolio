@@ -10,6 +10,8 @@ html {
 body{
     /* background-image: url('imges/sky.jpg' ); */
     background-color:rgb(238, 171, 116) ;
+    cursor: url(imges/logo.png) , auto;
+
   
     background-repeat: no-repeat;
         /* background-size: cover; */
@@ -24,7 +26,7 @@ body{
     justify-content: center;
     align-items: center;
    margin-top: 40px;
-   
+   height: 40%;
 
 }
 
