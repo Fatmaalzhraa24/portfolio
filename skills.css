@@ -13,6 +13,8 @@
     cursor: url(imges/logo.png) , auto;
         background-color: rgb(238, 171, 116);
     width: 100vw;
+    position: absolute;
+    
   }
   
   nav {
@@ -59,6 +61,7 @@
     margin-top: 7rem;
     margin-bottom: 7rem;
   }
+
   .about h1 {
     text-align: center;
     width: 100%;
